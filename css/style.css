@@ -1,8 +1,3 @@
-@font-face {
-    font-family: xkcd-regular;
-    src: url(xkcd-Regular.otf);
-}
-
 body{
     text-align:center;
     font-size:16px;
@@ -11,8 +6,8 @@ body{
     text-decoration: none;
     position: absolute;
     left: 50%;
-    width: 780px;
-    margin-left: -390px;
+    width: 640px;
+    margin-left: -320px;
 }
 
 h1 {
@@ -26,6 +21,7 @@ h1 {
 img {
     margin-top: 20px;
     margin-bottom: 15px;
+    width: 100%;
 }
 
 #num {
@@ -38,4 +34,9 @@ img {
     font-family: xkcd-regular;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+@font-face {
+    font-family: xkcd-regular;
+    src: url(xkcd-Regular.otf);
 }
