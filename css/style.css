@@ -19,9 +19,9 @@ h1 {
 }
 
 img {
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 15px;
-    width: 100%;
+    max-width: 100%;
 }
 
 #num {
@@ -29,9 +29,9 @@ img {
 }
 
 #alt {
-    color: #aaa;
+    color: #888;
     font-size: 14px;
-    font-family: xkcd-regular;
+    font-family: sans-serif;
     margin-left: 5%;
     margin-right: 5%;
 }
