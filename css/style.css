@@ -1,3 +1,8 @@
+@font-face {
+  font-family: xkcd-regular;
+  src: url(xkcd-Regular.otf);
+}
+
 body {
   text-align: center;
   font-size: 16px;
@@ -33,9 +38,4 @@ body {
   font-size: 14px;
   margin-left: 5%;
   margin-right: 5%;
-}
-
-@font-face {
-  font-family: xkcd-regular;
-  src: url(xkcd-Regular.otf);
 }
