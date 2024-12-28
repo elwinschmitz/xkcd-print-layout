@@ -10,7 +10,7 @@ body{
     margin-left: -320px;
 }
 
-h1 {
+#title {
     margin: 10px;
     margin-bottom: 0px;
     font-size: 21px;
@@ -18,7 +18,7 @@ h1 {
     font-variant:small-caps;
 }
 
-img {
+#img {
     margin-top: 15px;
     margin-bottom: 15px;
     max-width: 100%;
