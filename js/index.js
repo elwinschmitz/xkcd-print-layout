@@ -1,4 +1,3 @@
-var no = 1567;
 var xmlhttp = new XMLHttpRequest();
 var url = 'info.0.json';
 
