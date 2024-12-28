@@ -1,8 +1,9 @@
 body{
     text-align:center;
     font-size:16px;
-    font-family:Lucida,Helvetica,sans-serif;
+    font-family: xkcd-regular, Lucida, Helvetica, sans-serif;
     font-weight:500;
+    font-variant:small-caps;
     text-decoration: none;
     position: absolute;
     left: 50%;
@@ -15,7 +16,6 @@ body{
     margin-bottom: 0px;
     font-size: 21px;
     font-weight: 800;
-    font-variant:small-caps;
 }
 
 #img {
@@ -31,7 +31,6 @@ body{
 #alt {
     color: #888;
     font-size: 14px;
-    font-family: sans-serif;
     margin-left: 5%;
     margin-right: 5%;
 }
