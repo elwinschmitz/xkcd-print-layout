@@ -1,5 +1,6 @@
+var num = window.prompt('What comic number do you want to print') || '0';
 
-fetch('info.0.json')
+fetch(`info.json.php?num=${num}`)
   .then((response) => response.json())
   .then((data) => {
     document.body.removeAttribute('hidden');
